@@ -1,7 +1,6 @@
 """Each ListNode holds a reference to its previous node
 as well as its next node in the List."""
 
-
 class ListNode:
     def __init__(self, value, prev=None, next=None):
         self.value = value
@@ -37,7 +36,6 @@ class ListNode:
 
 """Our doubly-linked list class. It holds references to
 the list's head and tail nodes."""
-
 
 class DoublyLinkedList:
     def __init__(self, node=None):
